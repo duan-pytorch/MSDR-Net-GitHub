@@ -23,18 +23,7 @@ The model strictly follows the architectural specifications described in Section
 | 3 | MBRB + ECA | 256 | 56×56 |
 | 4 | MBRB + ECA | 512 | 28×28 |
 
-## Repository Structure
-MSDR-Net/
-├── models/
-│   ├── init.py
-│   └── msdr_net.py          # Complete MSDR-Net architecture (~23.6M params)
-├── train.py                 # Training script skeleton
-├── eval.py                  # Evaluation script skeleton
-├── dataset.py               # Dataset interface skeleton
-├── utils/
-│   └── metrics.py           # Evaluation metrics implementation
-├── requirements.txt
-└── README.md
+
 
 ## Usage
 
